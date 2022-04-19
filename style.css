@@ -12,8 +12,15 @@ div{
   border-radius: 10px;
 }
 
-a{
-  width: 40px; 
+
+
+#linkedin{
+  width:40px;
+  transition: transform 0.5s ease;
+}
+
+#linkedin:hover{
+  width: 45px;
 }
 
 .grow-on-hover {
