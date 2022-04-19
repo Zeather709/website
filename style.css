@@ -1,0 +1,44 @@
+body{
+  background-color: lightgray
+}
+
+div{
+  background-color: white;
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right:auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+a{
+  width: 40px; 
+}
+
+.grow-on-hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.grow-on-hover:hover, .grow-on-hover:focus, .grow-on-hover:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+img{
+  width: 400px;
+}
+
+#div2{
+  margin-top: 25px;
+  text-align: left;
+  width:90%
+}
+
