@@ -22,7 +22,8 @@ div{
 
 img{
     height: auto; 
-    width: 80%; 
+    max-width: 80%; 
+    max-width: 100 px;
 }
 
 #div2{
